@@ -1,0 +1,17 @@
+# section4 solo project APIdocs
+:sectnums:
+:toc: left
+:toclevels: 4
+:toc-title: Table of Contents
+:source-highlighter: prettify
+
+***
+== Member Controller
+=== 전체 회원 조회
+=====
+.curl Request
+include::{snippets}/get-all-members/curl-request.adoc[]
+.HTTP request
+include::{snippets}/get-all-members/http-request.adoc[]
+.HTTP Response
+include::{snippets}/get-all-members/http-response.adoc[]

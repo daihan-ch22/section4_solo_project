@@ -44,7 +44,6 @@ public class MemberController {
     public Member getMember(@PathVariable(value = "member-id") long memberId){
         System.out.println("memberId: " + memberId);
         return memberRepository.findById(memberId).get();
-
     }
 
     //전체 회원 조회
