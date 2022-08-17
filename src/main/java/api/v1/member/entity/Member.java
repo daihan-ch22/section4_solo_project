@@ -1,8 +1,6 @@
 package api.v1.member.entity;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.springframework.beans.factory.annotation.Required;
 
 import javax.persistence.*;
@@ -12,8 +10,8 @@ import javax.persistence.*;
 
 @Entity
 @NoArgsConstructor
-@Getter
-@Setter
+@AllArgsConstructor
+@Data
 public class Member {
 
     @Id
